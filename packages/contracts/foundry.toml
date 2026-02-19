@@ -1,0 +1,17 @@
+# Foundry Configuration
+
+[profile]
+default = "default"
+
+[default]
+# Compiler settings
+solc = { version = "^0.8.0" }
+
+# Paths to your smart contracts
+paths = { sources = "src/" }
+
+# Output settings
+output = { artifacts = "out/", tests = "test/output/" }
+
+# Additional settings
+run = { "default": { }}
